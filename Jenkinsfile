@@ -50,6 +50,7 @@ pipeline {
         stage('Deploy - Staging') {
             steps {
 		echo 'The main effect'
+		sh 'echo new entry'
             }
         }
 
