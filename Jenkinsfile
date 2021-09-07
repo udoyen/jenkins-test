@@ -50,7 +50,6 @@ pipeline {
         stage('Deploy - Staging') {
             steps {
                 sh 'echo staging'
-		sh 'echo some more stuff'
             }
         }
 
