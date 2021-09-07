@@ -49,7 +49,7 @@ pipeline {
 
         stage('Deploy - Staging') {
             steps {
-                sh 'echho staging'
+                sh 'echo staging'
             }
         }
 
